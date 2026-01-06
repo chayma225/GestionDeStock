@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord - Agent</title>
+    <link rel="stylesheet" href="styles/agent_dashboard.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="asset/logo.png" alt="Logo de l'entreprise">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="login.html">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="../backend/logout.php">deconnection</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenu principal -->
+    <main>
+        <h1>Bienvenue, Agent</h1>
+        <p>Veuillez sélectionner une catégorie d'article :</p>
+        <div class="button-container">
+            <a href="agent_articles.php?categorie=Bureautique" class="button">Bureautique</a>
+            <a href="agent_articles.php?categorie=Informatique" class="button">Informatique</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Votre Entreprise. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

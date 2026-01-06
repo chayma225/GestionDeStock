@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord Magasinier</title>
+    <link rel="stylesheet" href="styles/magasinier_dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="asset/logo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="magasinier_dashboard.html">Accueil</a></li>
+                    <li><a href="gestion_demandes.php">Demandes</a></li>
+                    <li><a href="consulter_stock.php">Stock</a></li>
+                    <li><a href="../backend/logout.php">Déconnexion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Tableau de Bord Magasinier</h1>
+        <div class="cards-container">
+            <div class="card">
+                <h3>Demandes en attente</h3>
+                <p>Consultez et gérez les demandes en attente.</p>
+                <a href="gestion_demandes.php" class="button"><i class="fas fa-tasks"></i> Gérer les Demandes</a>
+            </div>
+            <div class="card">
+                <h3>Consulter le Stock</h3>
+                <p>Vérifiez les niveaux de stock actuels et mettez à jour les quantités.</p>
+                <a href="consulter_stock.php" class="button"><i class="fas fa-boxes"></i> Consulter le Stock</a>
+            </div>
+            <div class="card">
+                <h3>Rapports de Stock</h3>
+                <p>Générez un rapport détaillé des stocks actuels.</p>
+                <a href="../backend/rapport_stock.php" class="button"><i class="fas fa-file-alt"></i> Voir le Rapport</a>
+            </div>
+            <div class="card">
+                <h3>Rapports des Demandes</h3>
+                <p>Générez un rapport détaillé des demandes.</p>
+                <a href="../backend/rapport_demandes.php" class="button"><i class="fas fa-file-alt"></i> Voir le Rapport</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Votre Entreprise. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

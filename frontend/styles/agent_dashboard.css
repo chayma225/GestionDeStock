@@ -1,0 +1,108 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 40px; /* Plus d'espace sur les côtés */
+    display: flex;
+    justify-content: space-between; /* Logo à gauche, navigation à droite */
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espace entre les éléments de navigation */
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px; /* Espace autour des liens */
+}
+
+header nav ul li a:hover {
+    color: #18bc9c;
+    background-color: rgba(255, 255, 255, 0.1); /* Effet de survol */
+    border-radius: 5px;
+}
+/* Contenu principal */
+main {
+    flex: 1; /* Prend tout l'espace disponible entre le header et le footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px; /* Espace réduit sous le texte */
+}
+
+/* Boutons de catégorie */
+.button-container {
+    display: flex;
+    gap: 15px; /* Espace entre les boutons */
+}
+
+.button {
+    display: inline-block;
+    background-color: #18bc9c;
+    color: #fff;
+    padding: 10px 20px; /* Taille réduite des boutons */
+    text-decoration: none;
+    font-size: 1rem; /* Taille de police réduite */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #15a589;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 40px; /* Plus d'espace sur les côtés */
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+} 
