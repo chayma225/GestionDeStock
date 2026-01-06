@@ -64,18 +64,18 @@ L'interface utilisateur a été conçue pour être claire et fonctionnelle, en u
 ### 📸(Screenshots)
 
 <p align="center">
-  <img src="screenshots1/1.png" width="400" >
-  <img src="screenshots1/2.png" width="250" >
-  <img src="screenshots1/3.png" width="250">
-    <img src="screenshots1/4.png" width="250">
-    <img src="screenshots1/5.png" width="250" >
-  <img src="screenshots1/6.png" width="250" >
-  <img src="screenshots1/7.png" width="250">
-    <img src="screenshots1/8.png" width="250">
-    <img src="screenshots1/9.png" width="250" >
-  <img src="screenshots1/10.png" width="250" >
-  <img src="screenshots1/11.png" width="250">
-    <img src="screenshots1/12.png" width="250">
+  <img src="screenshots1/1.png" width="450" >
+  <img src="screenshots1/2.png" width="450" >
+  <img src="screenshots1/3.png" width="450">
+    <img src="screenshots1/4.png" width="450">
+    <img src="screenshots1/5.png" width="450" >
+  <img src="screenshots1/6.png" width="450" >
+  <img src="screenshots1/7.png" width="450">
+    <img src="screenshots1/8.png" width="450">
+    <img src="screenshots1/9.png" width="450" >
+  <img src="screenshots1/10.png" width="450" >
+  <img src="screenshots1/11.png" width="450">
+    <img src="screenshots1/12.png" width="450">
 </p>
 
 
